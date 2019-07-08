@@ -1,4 +1,4 @@
-# Grantfinder
+# Grant Search
 Find Grants 
 # How to Clone
 * Click on "Clone or Download" found on Repo
