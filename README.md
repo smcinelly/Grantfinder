@@ -11,5 +11,4 @@ none
 # Collaborators
 Stephanie McInelly, Lea Whitney, Ilda Rodriguez, Kate Hansen
 # Branches
-* katebranch: Kate's branch for assignments
-* comments: workshopping comment system
+
