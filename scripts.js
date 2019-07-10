@@ -1,6 +1,5 @@
 
 
-
 // clickable card functionality
 $(document).ready(() => {
   $(document.body).on('click', '.card1[data-clickable=true]', (e) => {
