@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,6 +14,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>GRANTSEARCH</title>
   </head>
   <body>
@@ -29,7 +32,7 @@
               </nav>
 
 
-
+  <div class="container">
     <h3 class="center-align">New York Grant Watch</h3>
 
     <div>
@@ -45,7 +48,85 @@
     </p>
     <a href="https://nyc.grantwatch.com/grant/184881/grants-to-usa-canada-and-international-nonprofits-for-animal-assisted-humane-education.html">Grants to USA, Canada, and International 
         Nonprofits for Animal-Assisted Humane Education</a>
+    </div>
+  </div>
+<br>
+<br>
+<br>
+<br>   <!--Space between link and form-->
+
+<hr>
+            <!------Reviews------>
+<div class="container">          
+<h4>Reviews</h4>
+
+<div class="card-panel grey lighten-3"> 
+  <h6 class="pink-text text-lighten-1">Waterm3l0n6</h6>
+  <p>02/02/2018</p>
+  <p>Totally thought this grant was super easy to apply to. Staff is available to help you out if you contact them in the info provided.</p>
+  <p> EASE OF APPLICATION RATING: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
 </div>
+
+<div class="card-panel grey lighten-3"> 
+  <h6 class="pink-text text-lighten-1">UnderDog12</h6>
+  <p>01/03/2018</p>
+  <p>Totally thought this grant was super easy to apply to. Staff is available to help you out if you contact them in the info provided.</p>
+  <p> EASE OF APPLICATION RATING: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+</div>
+
+                              <!-----------FORMS---------->
+<h5>Submit Your Rating of this Grant Below: </h5>                              
+<!-- Name input-->
+<div class="row">
+  <div class="input-field col s6">
+    <input value="" id="first_name2" type="text" class="validate">
+    <label class="active" for="first_name2">Name</label>
+  </div>
+</div>
+<!-- Date input -->
+<div class="row">
+  <div class="input-field col s6">
+    <input value="" id="first_name2" type="text" class="validate">
+    <label class="active" for="first_name2">Date</label>
+  </div>
+</div>
+<!-- Comment Textarea -->
+<div class="row">
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s12">
+        <textarea id="textarea1" class="materialize-textarea"></textarea>
+        <label class="active" for="textarea1">Comment</label>
+      </div>
+    </div>
+  </form>
+</div>
+<!--Ease of Application rating-->
+<p>How would you rate the ease of this grant application?:
+    <i class="material-icons">stars</i><i class="material-icons">stars</i><i class="material-icons">stars</i><i class="material-icons">stars</i><i class="material-icons">stars</i>
+</p>
+<!-- Submit Review button-->
+<p class="review-button">
+  <button class="btn waves-effect waves-light" type="submit" name="action">Submit Review
+    <i class="material-icons right">send</i>
+  </button>
+</p>
+</div>
+
+
+<!--Javascript-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!-- Initialization for forms-->
+    <script>
+      $(document).ready(function() {
+        M.updateTextFields();
+      });
+    </script>  
+    <!-- Initialization for text area -->
+    <script>
+      $('#textarea1').val('New Text');
+      M.textareaAutoResize($('#textarea1'));
+    </script>
   </body>
 </html>
