@@ -18,12 +18,24 @@
   }
 
   header {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: arial;
+    padding: 25px;
   }
 
+  p {
+    font-family: 'Nanum Gothic', sans-serif;
+
+  }
   .dropdwn {
       padding: 40px;
       margin-left: 20px;
   }
+
+  /*----------------------BRANDLOGO--------------*/
+  .brand-logo {
+    font: black;
+    font-family: 
+  }
+  
 
   
