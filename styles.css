@@ -9,4 +9,21 @@
 
 .card1[data-clickable=true]{
     cursor: pointer;
+    
   }
+
+
+  h1, h3, h6 {
+    font-family: 'Oswald', sans-serif;
+  }
+
+  header {
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+
+  .dropdwn {
+      padding: 40px;
+      margin-left: 20px;
+  }
+
+  
