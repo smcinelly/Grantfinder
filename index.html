@@ -71,5 +71,15 @@
                 <!-- import the webpage's client-side javascript file -->
     <script src="/scripts.js" defer></script>
 
+
+    <!-- initiation for the dropdowns -->
+    <script> 
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('select');
+        var instances = M.FormSelect.init(elems, options);
+      });
+      M.AutoInit();
+    </script>
+
 </body>
 </html>
