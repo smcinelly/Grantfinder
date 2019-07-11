@@ -36,4 +36,21 @@
     font: black;
     font-family: Arial, Helvetica;
   }
-  
+#name-input {
+  padding-top:10px;
+} 
+#enter-rating{
+  margin-top:5%;
+}  
+.border-container {
+  border-style:groove;
+  border-width:1px;
+  border-radius: 5px;
+  width:65%;
+  margin: 5% 17.5%;
+  box-shadow: 3px 5px 9px #888888;  
+}
+
+#stars:hover {
+  color:gold;
+}
