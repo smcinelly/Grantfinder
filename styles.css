@@ -26,14 +26,17 @@
     font-family: 'Nanum Gothic', sans-serif;
 
   }
+  
   .dropdwn {
       padding: 40px;
       margin-left: 20px;
   }
 
+  
+
   /*----------------------BRANDLOGO--------------*/
   .brand-logo {
     font: black;
-    font-family: 
+    font-family: sans-serif;
   }
   
