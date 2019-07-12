@@ -12,28 +12,80 @@
     
   }
 
+  .card1 p {
+    font-family: sans-serif;
+  font-size: 12px;
+  }
+
+  .card-title:after {
+    font-size: 12px; 
+  }
+
+.results {
+  text-align: center;
+
+}
 
   h1, h3, h6 {
     /* font-family: 'Oswald', sans-serif; */
-    font-family: 'Russo One';
+    //font-family: 'Russo One';
   }
 
-  header {
-    font-family: arial;
-    padding: 25px;
-  }
+  
+
+
 
   p {
     font-family: 'Nanum Gothic';
 
   }
   
+  /*------------- Index dropdowns-------- */
+
+  /* margin for dropdowns */
+  .selectors {
+    margin: 5% 10%;
+  }
+  /* places btn on index exactly where we want it */ 
+  .selectors .grants-btn {
+    padding-top:4%;
+    padding-right:5%;
+  }
 
 
 
   /*----------------------BRANDLOGO--------------*/
-  .brand-logo {
-    font: black;
-    font-family: Arial, Helvetica;
+  .nav-wrapper {
+    padding-left: 25px;
   }
-  
+
+  /* Moves button down away form the nav bar */
+#newsearchbtn {
+  padding-top:3%;
+}  
+
+/* ----------- PAGES -- Form styling ----- */  
+
+/* Adds padding above the "name" label inside the form border */
+#name-input {
+  padding-top:10px;
+} 
+
+/* adds margin to the top of "submit your review" */
+#enter-rating{
+  margin-top:5%;
+}  
+
+/* Form border styling */
+.border-container {
+  border-style:groove;
+  border-width:1px;
+  border-radius: 5px;
+  width:65%;
+  margin: 5% 17.5%;
+  box-shadow: 3px 5px 9px #888888;  
+}
+ /* hover for stars */ 
+#stars:hover {
+  color:gold;
+}
