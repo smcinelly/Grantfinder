@@ -47,7 +47,7 @@
     padding-top:4%;
     padding-right:5%;
   } 
-
+/* media query for btn on index page */
  /* @media only screen and (max-width: 768px) {
     .selectors .grants-btn{
       padding-bottom:20%;
