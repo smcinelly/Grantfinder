@@ -13,7 +13,7 @@
     <title>GRANTSEARCH</title>
   </head>
   <body>
-
+          <!------Navbar------->
     <nav>
       <div class="nav-wrapper grey lighten-1">
         <a href="index.html" class="brand-logo">Grant Search</a>
@@ -23,21 +23,24 @@
         </ul>
       </div>
     </nav>
-
+        <!--------New Search Btn-------->
   <div class="container center-align" id="newsearchbtn">
-      <div class="newsearch">
-        <a href="/index.html">
-            <button class="btn waves-effect waves-light blue-grey darken-3" type="submit" name="action" value="click">New Search
-            <i class="material-icons right">search</i>
-            </button>
-        </a>
-      </div>
+    <div class="newsearch">
+      <a href="/index.html">
+        <button class="btn waves-effect waves-light blue-grey darken-3" type="submit" name="action" value="click">New Search
+          <i class="material-icons right">search</i>
+        </button>
+      </a>
+    </div>
+              <!------Grant Info------->
       <h3 class="center-align">The Albert Schweitzer Animal Welfare Fund</h3>
-      <p>
+      <div class="left-align">
+        <p>
           American Humane is proud to accept applications for our grant programs, which fund a spectrum of lifesaving work benefitting both humans and animals. 
           These grants support and facilitate efforts to rescue, shelter, and care for animals in need—whether homeless, injured, or abused—and those harnessing the remarkable powers of the human-animal bond. Deadline: Nov. 2019
-      </p>
-      <a href="http://schweitzerfund.org/"> Click Here to View and Apply to the Albert Schweitzer Animal Welfare Fund </a>
+        </p>
+        <a href="http://schweitzerfund.org/" class="teal-text text-lighten-1"> Click Here to View and Apply to the Albert Schweitzer Animal Welfare Fund </a>
+      </div>
   </div>
 <br>
 <br>
@@ -47,16 +50,16 @@
             <!------Reviews------>
     <div class="container">          
       <h4>Reviews</h4>
-
+      <!--Comment 1-->
       <div class="card-panel grey lighten-3"> 
-        <h6 class="pink-text text-lighten-1">HappytoHelp123</h6>
+        <h6 class="blue-grey-text text-darken-3">HappytoHelp123</h6>
         <p>03/05/2018</p>
         <p>Fantastic grant to help our organization get on it's way. The application was short and sweet!</p>
         <p> EASE OF APPLICATION RATING: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
       </div>
-
+      <!--Comment 2-->
       <div class="card-panel grey lighten-3"> 
-        <h6 class="pink-text text-lighten-1">Grumpy Cat</h6>
+        <h6 class="blue-grey-text text-darken-3">Grumpy Cat</h6>
         <p>07/07/2017</p>
         <p>This application was incredibly frustrating and confusing. I had to call for assistance multiple times. The only reason I'm giving two stars is because the lady I spoke on the phone with was nice and cosistent.</p>
         <p> EASE OF APPLICATION RATING: <i class="fa fa-star"></i><i class="fa fa-star"></i></p>
@@ -73,20 +76,13 @@
             <label class="active" for="first_name2">Name</label>
           </div>
         </div>
-                      <!-- Date input -->
-        <div class="row">
-          <div class="input-field col s6">
-            <input value="" id="first_name2" type="text" class="validate">
-            <label class="active" for="first_name2">Date</label>
-          </div>
-        </div>
                       <!-- Comment Textarea -->
         <div class="row">
           <form class="col s12">
             <div class="row">
               <div class="input-field col s12">
-                  <textarea id="textarea1" class="materialize-textarea"></textarea>
-                  <label class="active" for="textarea1">Comment</label>
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label class="active" for="textarea1">Comment</label>
               </div>
             </div>
           </form>
@@ -95,7 +91,6 @@
         <p class="center-align grey-text">How would you rate the ease of this grant application?:
           <br>
           <i class="material-icons center-align" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i>
-           
         </p>
                       <!-- Submit Review button-->
         <p class="review-button center-align ">
