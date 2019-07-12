@@ -13,31 +13,34 @@
     <title>GRANTSEARCH</title>
   </head>
   <body>
-
+            <!-------Navbar-------->
     <nav>
-      <div class="nav-wrapper grey lighten-1">
-        <a href="index.html" class="brand-logo">Grant Search</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <div class="nav-wrapper grey lighten-1">
+            <a href="index.html" class="brand-logo">Grant Search</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
           <!-- <li><a href="sass.html">Sass</a></li>
           <li><a href="badges.html">Components</a></li> -->
-        </ul>
-      </div>
+            </ul>
+        </div>
     </nav>
-
-  <div class="container center-align" id="newsearchbtn">
-      <div class="newsearch">
-        <a href="/index.html">
-            <button class="btn waves-effect waves-light blue-grey darken-3" type="submit" name="action" value="click">New Search
-            <i class="material-icons right">search</i>
-            </button>
-        </a>
-      </div>
-      <h3 class="center-align">New York Foundation for the Arts</h3>
-        <p>New York Foundation for the Arts is a nonprofit service organization that provides the concrete resources that working artists and emerging arts organizations need to thrive. 
-        <br>Deadline: Nov. 2019
-        </p>
-        <a href="https://www.nyfa.org/Content/Show/Awards-and-Grants">Click Here to Review and Apply to the New York Foundation for the Arts</a>   
-  </div>
+            <!-----New Search Btn------>
+    <div class="container center-align" id="newsearchbtn">
+        <div class="newsearch">
+            <a href="/index.html">
+                <button class="btn waves-effect waves-light blue-grey darken-3" type="submit" name="action" value="click">New Search
+                <i class="material-icons right">search</i>
+                </button>
+            </a>
+        </div>
+            <!-------Grant Info-------->
+        <h3 class="center-align">New York Foundation for the Arts</h3>
+        <div class="left-align">
+            <p>New York Foundation for the Arts is a nonprofit service organization that provides the concrete resources that working artists and emerging arts organizations need to thrive. 
+            <br>Deadline: Nov. 2019
+            </p>
+            <a href="https://www.nyfa.org/Content/Show/Awards-and-Grants" class="teal-text text-lighten-1">Click Here to Review and Apply to the New York Foundation for the Arts</a> 
+        </div>      
+    </div>
 <br>
 <br>
 <br>
@@ -45,64 +48,56 @@
 
             <!------Reviews------>
     <div class="container">          
-      <h4>Reviews</h4>
-
-      <div class="card-panel grey lighten-3"> 
-        <h6 class="pink-text text-lighten-1">Raymond Cole</h6>
-        <p>08/08/2017</p>
-        <p>Wouldn't do it again.</p>
-        <p> EASE OF APPLICATION RATING: <i class="fa fa-star"></i></p>
-      </div>
-
-      <div class="card-panel grey lighten-3"> 
-        <h6 class="pink-text text-lighten-1">Justin Bobby</h6>
-        <p>06/03/2016</p>
-        <p>This application was everything I wanted and more. It was user friendly and understandable.</p>
-        <p> EASE OF APPLICATION RATING: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
-      </div>
+        <h4>Reviews</h4>
+        <!--Comment 1-->
+        <div class="card-panel grey lighten-3"> 
+            <h6 class="blue-grey-text text-darken-3">Raymond Cole</h6>
+            <p>08/08/2017</p>
+            <p>Wouldn't do it again.</p>
+            <p> EASE OF APPLICATION RATING: <i class="fa fa-star"></i></p>
+        </div>
+        <!--Comment 2-->
+        <div class="card-panel grey lighten-3"> 
+            <h6 class="blue-grey-text text-darken-3">Justin Bobby</h6>
+            <p>06/03/2016</p>
+            <p>This application was everything I wanted and more. It was user friendly and understandable.</p>
+            <p> EASE OF APPLICATION RATING: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+        </div>
 
                               <!-----------FORMS---------->
       <h5 class="center-align" id="enter-rating">Submit Your Review of this Grant Below: </h5> 
 
-      <div class="border-container">
+    <div class="border-container">
                   <!-- Name input-->
         <div class="row" id="name-input">
-          <div class="input-field col s6">
-            <input value="" id="first_name2" type="text" class="validate">
-            <label class="active" for="first_name2">Name</label>
-          </div>
-        </div>
-                      <!-- Date input -->
-        <div class="row">
-          <div class="input-field col s6">
-            <input value="" id="first_name2" type="text" class="validate">
-            <label class="active" for="first_name2">Date</label>
-          </div>
+            <div class="input-field col s6">
+                <input value="" id="first_name2" type="text" class="validate">
+                <label class="active" for="first_name2">Name</label>
+            </div>
         </div>
                       <!-- Comment Textarea -->
         <div class="row">
-          <form class="col s12">
-            <div class="row">
-              <div class="input-field col s12">
-                  <textarea id="textarea1" class="materialize-textarea"></textarea>
-                  <label class="active" for="textarea1">Comment</label>
-              </div>
-            </div>
-          </form>
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label class="active" for="textarea1">Comment</label>
+                    </div>
+                </div>
+            </form>
         </div>
                       <!--Ease of Application rating-->
         <p class="center-align grey-text">How would you rate the ease of this grant application?:
           <br>
-          <i class="material-icons center-align" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i>
-           
+          <i class="material-icons center-align" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i> 
         </p>
                       <!-- Submit Review button-->
         <p class="review-button center-align ">
-          <button class="btn waves-effect waves-light blue-grey darken-3" type="submit" name="action">Submit Review
+            <button class="btn waves-effect waves-light blue-grey darken-3" type="submit" name="action">Submit Review
             <i class="material-icons right">send</i>
-          </button>
+            </button>
         </p>
-      </div>
+    </div>
     </div>
 
 
