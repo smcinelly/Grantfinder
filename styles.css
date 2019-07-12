@@ -35,12 +35,18 @@
     font-family: 'Nanum Gothic';
 
   }
+
+  /*-------Index General-----------*/
+  .searchheader {
+    padding-top: 4%;
+    letter-spacing: 4px;
+  }
   
   /*------------- Index dropdowns-------- */
 
   /* margin for dropdowns */
   .selectors {
-    margin: 5% 10%;
+    margin: 0% 10%;
   }
   /* places btn on index exactly where we want it */ 
    .selectors .grants-btn {
@@ -58,6 +64,11 @@
   /*----------------------BRANDLOGO--------------*/
   .nav-wrapper {
     padding-left: 25px;
+  }
+
+  .logo {
+    padding-top: 4%;
+    padding-bottom: 3%;
   }
 
   /* Moves button down away form the nav bar */
@@ -104,6 +115,6 @@ main {
 }
     
 .copyright {
-  padding: 10px;
-  
+  padding-bottom: 2%;
+
 }
