@@ -1,23 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <script src="scripts.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Oswald&display=swap" rel="stylesheet">
-    
+    <link
+      href="https://fonts.googleapis.com/css?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Oswald&display=swap"
+      rel="stylesheet"
+    />
+
     <title>GRANTSEARCH</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <!--- How to use this website --->
-        <p>
+      
+
+ <!-- Modal Trigger -->
+ <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+
+ <!-- Modal Structure -->
+ <!-- <div id="modal1" class="modal">
+   <div class="modal-content">
+     <h4>Modal Header</h4>
+     <p>A bunch of text</p>
+   </div>
+   <div class="modal-footer">
+     <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+   </div>
+ </div> -->
+
+
+
+
+ <div id="modal1" class="modal">
+  <div class="modal-content">
+    <h4>How to use Grant Search: </h4>
+      <p><i>Grant Search</i> is a search tool for non-profit founders to easily find grants by sector, region or type specifically public or private. 
+        <br>
+        <br> <b>Three easy steps: </b>
+        <br> &nbsp;  1. To find a grant simply select the category via the drop down options and hit "find grants." 
+        <br> &nbsp;  2. View the results below and click on any result for more details. 
+        <br> &nbsp;  3. If you have applied to a grant before and would like to share your experience or read other &nbsp; founders experiences then you can browse and leave comments too. 
+        <br>
+  </div>
+  <div class="modal-footer">
+  <a href="#!" class="modal-close waves-effect waves-green btn-flat teal">Close</a>
+  </div>
+</div>
+ <nav>
+  <div class="nav-wrapper blue-grey">
+    <a href="#!" class="brand-logo">Grant Search</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1">How to use</a></li>
+    </ul>
+  </div>
+
+</nav>
+
+
+      <!--- How to use this website --->
+      <!-- <p>
           <h6>How to use Grant Search:</h6>
           <br>Grant Search is a search tool for non-profit founders to easily find grants by sector, region or type specifically public or private. 
           <br>Three easy steps: 
@@ -26,69 +83,77 @@
           <br>3. If you have applied to a grant before and would like to share your experience or read other founders experiences then you can browse and leave comments too. 
           <br>This search tool is free, involves no downloads and comes complete with the latest grant information.  
         </p>
-        <hr>
-        <!--- Page Title --->
+        <hr> -->
+      <!--- Page Title --->
       <h1 class="blue-grey-text center-align">
-        Grant Search 
+        Grant Search
       </h1>
     </header>
 
     <main>
-      
-        <!----Dropdowns ---> 
-    <div class="selectors">  
-      <div> 
-         <div class="dropdwn input-field col s12 m6 left">
+      <!----Dropdowns --->
+      <div class="selectors">
+        <div>
+          <div class="dropdwn input-field col s12 m6 left">
             <select class="select-wrapper">
               <option value="" disabled selected>Choose your sector</option>
               <option value="Animal">Animal Rights</option>
-              <option value="Arts"disabled>Arts</option>
+              <option value="Arts" disabled>Arts</option>
             </select>
-        </div>
-         <div class="dropdwn input-field col s12 m6 left">
+          </div>
+          <div class="dropdwn input-field col s12 m6 left">
             <select>
               <option value="" disabled selected>Choose your region</option>
               <option value="1">Mid Atlantic</option>
             </select>
-        </div>
-         <div class="dropdwn input-field col s12 m6 left">
+          </div>
+          <div class="dropdwn input-field col s12 m6 left">
             <select>
               <option value="" disabled selected>Choose your grant type</option>
               <option value="1">Private</option>
               <option value="2">Public</option>
             </select>
+          </div>
         </div>
-      </div>      
 
-            <!---- Submit button ---->
-        <div class="grants-btn">  
+        <!---- Submit button ---->
+        <div class="grants-btn">
           <a href="results2.html" class="right">
-            <button class="btn waves-effect waves-light blue-grey darken-3" type="submit" name="action" value="click">Find Grants 
-            <i class="material-icons right">send</i>
+            <button
+              class="btn waves-effect waves-light blue-grey darken-3"
+              type="submit"
+              name="action"
+              value="click"
+            >
+              Find Grants
+              <i class="material-icons right">send</i>
             </button>
           </a>
-        </div>  
-    </div>   
-
-    
+        </div>
+      </div>
     </main>
 
-                 <!-- Compiled and minified JavaScript and jQuery -->
+    <!-- Compiled and minified JavaScript and jQuery -->
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-                <!-- import the webpage's client-side javascript file -->
+    <!-- import the webpage's client-side javascript file -->
     <script src="/scripts.js" defer></script>
 
-
     <!-- initiation for the dropdowns -->
-    <script> 
-      document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('select');
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var elems = document.querySelectorAll("select");
         var instances = M.FormSelect.init(elems, options);
       });
       M.AutoInit();
     </script>
 
-</body>
+    <footer class="page-footer grey darken-1">
+      <div class="center-align">
+        © 2019 Copyright MomsCanCode
+        <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+      </div>
+    </footer>
+  </body>
 </html>
