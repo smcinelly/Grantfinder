@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 286 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-9.32284,-39.267)">
+        <g transform="matrix(1.34118,0,0,1.34118,-29.1749,-10.4148)">
+            <text x="30.955px" y="57.301px" style="font-family:'Oswald-Light', 'Oswald';font-weight:300;font-size:24px;fill:white;">G<tspan x="48.211px 65.299px 81.547px 98.827px 113.563px 129.403px 143.755px 160.003px 177.091px 193.867px " y="57.301px 57.301px 57.301px 57.301px 57.301px 57.301px 57.301px 57.301px 57.301px 57.301px ">RANTSEARCH</tspan></text>
+        </g>
+        <g transform="matrix(1.04161,0,0,1.34118,-2.97965,-26.9532)">
+            <path d="M13.251,79L284,79" style="fill:none;stroke:rgb(77,182,172);stroke-width:2.5px;"/>
+        </g>
+        <g transform="matrix(-0.184857,0,0,0.184857,312.578,-30.6576)">
+            <path d="M200.927,435.861C200.927,423.267 205.831,411.428 214.736,402.523C223.927,393.331 236,388.736 248.073,388.736C260.147,388.736 272.22,393.331 281.411,402.523C290.316,411.428 295.22,423.267 295.22,435.861C295.22,448.454 290.316,460.294 281.411,469.199C264.6,486.011 238.15,487.437 219.691,473.497L210.392,464.198C204.254,456.072 200.927,446.224 200.927,435.861ZM201.601,485.638L198.296,482.333L206.003,474.627L209.307,477.931L201.601,485.638ZM154.06,533.178L150.756,529.874L190.887,489.742L194.192,493.047L154.06,533.178ZM248.074,493.458C262.828,493.457 277.587,487.84 288.82,476.608C299.704,465.724 305.698,451.253 305.698,435.861C305.698,420.469 299.704,405.998 288.82,395.114C266.352,372.645 229.794,372.646 207.327,395.114C196.443,405.998 190.449,420.469 190.449,435.861C190.449,446.885 193.539,457.429 199.283,466.529L135.938,529.874L154.06,547.996L217.415,484.641C226.75,490.509 237.407,493.459 248.074,493.458Z" style="fill:white;fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(0.825555,0,0,0.825555,67.7578,3.71621)">
+            <text x="235.131px" y="63.007px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:19.452px;fill:white;">$</text>
+        </g>
+    </g>
+</svg>
