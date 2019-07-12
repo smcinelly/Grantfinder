@@ -1,15 +1,17 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="../styles.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="scripts.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-     <!-- Font Awesome -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <script src="/scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>GRANTSEARCH</title>
+
 </head>
 <body>
     
@@ -37,10 +39,103 @@
 
 
 
+  </head>
+  <body>
+      <!-------Navbar------->
+    <nav>
+      <div class="nav-wrapper grey lighten-1">
+        <a href="index.html" class="brand-logo">Grant Search</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <!-- <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li> -->
+        </ul>
+      </div>
+    </nav>
+      <!-----New Search Btn----->
+    <div class="container center-align" id="newsearchbtn">
+      <div class="newsearch">
+        <a href="/index.html">
+            <button class="btn waves-effect waves-light blue-grey darken-3" type="submit" name="action" value="click">New Search
+            <i class="material-icons right">search</i>
+            </button>
+        </a>
+      </div>
+                                    <!-----Grant Info------>  
+      <h3 class="center-align">PPA Project Stream</h3>
+      <div class="left-align">
+            <p>Project Stream provides grants of up to $2,500 to eligible organizations or individuals to conduct arts projects. Eligible projects must: ​Be an arts activity conducted for the benefit of the public. Take place in the PPA Partner’s service reg​ion. 
+            <br>Deadline: Jan. 2020
+            </p>
+        <a href="https://www.arts.pa.gov/WHAT%20WE%20DO/FUNDING/apply-for-a-grant/Pages/default.aspx" class="teal-text text-lighten-1">Click Here to Apply to the PPA Project Stream</a>
+      </div>
+    </div>
+<br>
+<br>
+<br>
+<br>   <!--Space between link and form-->
+
+                                  <!------Reviews------>
+    <div class="container">          
+        <h4>Reviews</h4>
+        <!--Comment 1-->
+        <div class="card-panel grey lighten-3"> 
+            <h6 class="blue-grey-text text-darken-3">Justin Reeves</h6>
+            <p>05/07/2017</p>
+            <p>Staff is available if you have questions. This grant was a breeze to apply to.</p>
+            <p> EASE OF APPLICATION RATING: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+        </div>
+        <!--Comment 2-->
+        <div class="card-panel grey lighten-3"> 
+            <h6 class="blue-grey-text text-darken-3">Rosa Dawn</h6>
+            <p>04/24/2017</p>
+            <p>Highly recommend this grant. Application was clear and didn't require any run around or headache.</p>
+            <p> EASE OF APPLICATION RATING: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+        </div>
+        <!--Comment 3-->
+        <div class="card-panel grey lighten-3"> 
+            <h6 class="blue-grey-text text-darken-3">Happy2Help</h6>
+            <p>09/09/2016/p>
+            <p>Apply for this grant if you want money fast!</p>
+            <p> EASE OF APPLICATION RATING: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+        </div>
+
+                              <!-----------FORMS---------->
+      <h5 class="center-align" id="enter-rating">Submit Your Review of this Grant Below: </h5> 
+
+      <div class="border-container">
+                  <!-- Name input-->
+        <div class="row" id="name-input">
+          <div class="input-field col s6">
+            <input value="" id="first_name2" type="text" class="validate">
+            <label class="active" for="first_name2">Name</label>
+          </div>
+        </div>
+                  <!-- Comment Textarea -->
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label class="active" for="textarea1">Comment</label>
+              </div>
+            </div>
+          </form>
+        </div>
+                      <!--Ease of Application rating-->
+        <p class="center-align grey-text">How would you rate the ease of this grant application?:
+          <br>
+          <i class="material-icons center-align" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i>
+        </p>
+                      <!-- Submit Review button-->
+        <p class="review-button center-align ">
+          <button class="btn waves-effect waves-light blue-grey darken-3" type="submit" name="action">Submit Review
+            <i class="material-icons right">send</i>
+          </button>
+        </p>
+      </div>
+    </div>
 
 
-
-<script type="text/javascript" src="js/materialize.min.js"></script>
 
 
 
@@ -53,3 +148,20 @@
 
 </body>
 </html>
+
+        <!--Javascript-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- Initialization for forms-->
+    <script>
+      $(document).ready(function() {
+        M.updateTextFields();
+      });
+    </script>  
+    <!-- Initialization for text area -->
+    <script>
+      $('#textarea1').val('New Text');
+      M.textareaAutoResize($('#textarea1'));
+    </script>
+  </body>
+</html>
+

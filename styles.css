@@ -23,16 +23,17 @@
 
 .results {
   text-align: center;
-
 }
 
   h1, h3, h6 {
+
     /* font-family: 'Oswald', sans-serif; */
     font-family: 'Russo One';
+
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Russo One'; */
+
   }
-
-  
-
 
 
   p {
@@ -47,11 +48,16 @@
     margin: 5% 10%;
   }
   /* places btn on index exactly where we want it */ 
-  .selectors .grants-btn {
+   .selectors .grants-btn {
     padding-top:4%;
     padding-right:5%;
-  }
-
+  } 
+/* media query for btn on index page */
+ /* @media only screen and (max-width: 768px) {
+    .selectors .grants-btn{
+      padding-bottom:20%;
+    }
+  }   */ 
 
 
   /*----------------------BRANDLOGO--------------*/
@@ -88,6 +94,7 @@
  /* hover for stars */ 
 #stars:hover {
   color:gold;
+  cursor:pointer;
 }
  
 /* Sticky footer */
