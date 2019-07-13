@@ -1,8 +1,3 @@
-.select-wrapper {
-    width:250px; 
-    padding:20px;
-}
-
 .results {
     margin-top:100px;
 }
@@ -43,7 +38,11 @@
   }
   
   /*------------- Index dropdowns-------- */
-
+/* sizes the dropdowns */
+  .select-wrapper {
+    min-width:250px; 
+    padding:20px;
+}
   /* margin for dropdowns */
   .selectors {
     margin: 0% 10%;
@@ -54,11 +53,12 @@
     padding-right:5%;
   } 
 /* media query for btn on index page */
- /* @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 670px) {
     .selectors .grants-btn{
-      padding-bottom:20%;
+      max-width:100%;
+      margin-bottom: 50%; 
     }
-  }   */ 
+  }  
 
 
   /*----------------------BRANDLOGO--------------*/
