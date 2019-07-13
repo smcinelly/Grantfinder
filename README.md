@@ -3,30 +3,31 @@ This tool is the result of stakeholder and client research to find better ways f
 # Dependancies
 none
 # GitHub Pages
-* https://smcinelly.github.io/Grantsearch/
+https://smcinelly.github.io/Grantsearch/
 # Collaborators
 Stephanie McInelly, Lea Whitney, Ilda Rodriguez, & Kate Hansen
 # Branches
 # Tech Frameworks
-Built with 
+Built with: 
 * Materialize CSS
 * HTML
 * CSS
 * Javascript
 # Features
-This is a search tool to help nonprofit find grants and each other. The features include: 
 * Filterable grant searches by sector, region, and grant type
 * Results page
 * Brief information on the grant and link to the grant's website
 * Repository of reviews on each grant
 * Form to submit review 
 ## Backlog 
-As mentioned previous this project does not contain a backend. Backlog items include:
+As mentioned previously this project does not contain a backend. Backlog items include:
 * Database containing all grant opportunities
 * Dynamic filter functionality
 * Log in function for users to review, edit, delete their comments
 * Reviews that populate on page
 * Database containing reviews submitted
+* Submit review form to include "like" icon and "reply" option
+* Ease of application star rating will be functional
 # How to Use 
 Grant Search is a search tool for non-profit founders to easily find grants by sector, region or type specifically public or private. 
 ## Three easy steps: 
@@ -35,13 +36,13 @@ Grant Search is a search tool for non-profit founders to easily find grants by s
 3. If you have applied to a grant before and would like to share your experience or read other founders experiences then you can browse and leave comments too. 
 This search tool is free, involves no downloads and comes complete with the latest grant information. 
 # Installation
-Follow the instructions below to clone this repo. To fork, click >Fork at the top of the page. 
+Follow the instructions below to clone this repo. To fork, click "Fork" at the top of the page. 
 ## How to Clone
 * Click on "Clone or Download" found on Repo
 * Copy the URL 
 * In your command line enter: $ git clone *paste URL*
 ### Important to remember
-* After pull, always work from a branch. Never work from master. 
+* Always work within a branch. Never work from master. 
 # Contribute
 This project is not open to contributors.
 # Credits
