@@ -69,6 +69,8 @@
   .logo {
     padding-top: 4%;
     padding-bottom: 3%;
+    width: 40%;
+    height: auto;
   }
 
   /* Moves button down away form the nav bar */
