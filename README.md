@@ -6,7 +6,6 @@ none
 https://smcinelly.github.io/Grantsearch/
 # Collaborators
 Stephanie McInelly, Lea Whitney, Ilda Rodriguez, & Kate Hansen
-# Branches
 # Tech Frameworks
 Built with: 
 * Materialize CSS
@@ -45,4 +44,3 @@ Follow the instructions below to clone this repo. To fork, click "Fork" at the t
 * Always work within a branch. Never work from master. 
 # Contribute
 This project is not open to contributors.
-# Credits
