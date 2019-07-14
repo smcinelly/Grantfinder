@@ -1,14 +1,11 @@
-.results {
-    margin-top:100px;
-}
-
+/*-------Cards----------*/
 .card1[data-clickable=true]{
     cursor: pointer;
     
   }
 
   .card1 p {
-    font-family: sans-serif;
+  font-family: sans-serif;
   font-size: 12px;
   }
 
@@ -16,19 +13,15 @@
     font-size: 12px; 
   }
 
-.results {
-  text-align: center;
-}
+/*------Fonts-------*/
 
-  h1, h3, h6 {
-    font-family: 'Oswald', sans-serif;
-    /* font-family: 'Russo One'; */
-  }
-
+  h1, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif !important;
+  } 
 
   p {
-    font-family: 'Nanum Gothic';
-
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; 
   }
 
   /*-------Index General-----------*/
@@ -47,11 +40,7 @@
   .selectors {
     margin: 0% 10%;
   }
-  /* places btn on index exactly where we want it */ 
-   .selectors .grants-btn {
-    padding-top:4%;
-    padding-right:5%;
-  } 
+ 
 /* media query for btn on index page */
   @media screen and (max-width: 670px) {
     .selectors .grants-btn{
@@ -60,8 +49,13 @@
     }
   }  
 
+/*----------Results page------------*/
+.results {
+  padding-top: 4%;
+  letter-spacing: 4px;
+}
 
-  /*----------------------BRANDLOGO--------------*/
+/*----------------------BRANDLOGO--------------*/
   .nav-wrapper {
     padding-left: 25px;
   }
@@ -133,4 +127,3 @@ main {
   padding-bottom: 2%;
 
 }
-  } 
