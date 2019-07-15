@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-
+        <!-- Modal -->
         <div id="modal1" class="modal">
             <div class="modal-content">
               <h4>How to use Grant Search: </h4>
@@ -32,15 +32,31 @@
             <a href="#!" class="modal-close waves-effect waves-green btn-flat teal">Close</a>
             </div>
           </div>
+
+          <!-- Navbar -->
            <nav>
             <div class="nav-wrapper blue-grey">
               <a href="index.html" class="brand-logo"><img class="logo" src="gslogowhite.png"></a>
+              <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                  <i class="material-icons">menu</i>
+                </a>
               <ul class="right hide-on-med-and-down">
                 <li><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1">How to use</a></li>
               </ul>
             </div>
-          
           </nav>
+
+
+          <!-- Sidenav -->
+          <ul class="sidenav" id="mobile-links">
+              <li>
+                <div class="user-view">
+                  <div class="container-view teal">
+                      <p class="white-text"><b>Grant Search</b> is a search tool for non-profit founders to easily find grants by sector, region or type specifically public or private. 
+                  </div>
+                </div>
+              </li>
+          </ul>     
           
 
 
@@ -111,6 +127,13 @@
       });
       M.AutoInit();
     </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems, options);
+      }); 
+</script>
 
 <!-- Footer -->
 <footer class="page-footer grey darken-1">
