@@ -14,24 +14,24 @@
     <title>GRANTSEARCH</title>
   </head>
   <body>
-      <!-------Navbar------->
+    <!-------Navbar------->
     <nav>
-        <div class="nav-wrapper blue-grey">
-            <a href="index.html" class="brand-logo"><img class="logo" src="gslogowhite.png"></a>
-            <ul class="right hide-on-med-and-down">
-            </ul>
-        </div>    
+      <div class="nav-wrapper blue-grey">
+        <a href="index.html" class="brand-logo"><img class="logo" src="gslogowhite.png"></a>
+        <ul class="right hide-on-med-and-down">
+        </ul>
+      </div>    
     </nav>
-      <!-----New Search Btn----->
+    <!-----New Search Btn----->
     <div class="container center-align" id="newsearchbtn">
       <div class="newsearch">
         <a href="index.html">
-            <button class="btn waves-effect waves-light blue-grey darken-3" type="submit" name="action" value="click">New Search
+          <button class="btn waves-effect waves-light blue-grey darken-3" type="submit" name="action" value="click">New Search
             <i class="material-icons right">search</i>
-            </button>
+          </button>
         </a>
       </div>
-                                    <!-----Grant Info------>  
+      <!-----Grant Info------>  
       <h3 class="center-align">Wag! Offers NYC Animal-Welfare Grants</h3>
       <div class="left-align">
         <p>Helping rescue pets has been part of Wag!’s mission since our founding. Through a partnership with the Rescue Bank, Wag! has donated proceeds from every walk to provide more than 5 million meals and counting to rescue dogs nationwide. Through this new grant program, Wag! is striving to make an impact in communities, like New York City, by supporting the work of local animal-welfare organizations to improve the quality of life for dogs.      
@@ -42,21 +42,22 @@
         <br>
         Wag! will accept applications for the 2018 grant cycle on a rolling basis with the first round of applications being considered starting July 23, 2018. Notification of awards will be announced on an ongoing basis. We highly encourage organizations to apply as soon as possible to increase the opportunity of being awarded a grant. 
         </p>
-        <a href="https://wagwalking.com/daily/wag-offers-nyc-community-impact-grants-for-animal-welfare-organizations" class="teal-text text-lighten-1"> View Grant </a>
+        <!--Link to Grant-->
+        <a href="https://wagwalking.com/daily/wag-offers-nyc-community-impact-grants-for-animal-welfare-organizations" class="teal-text text-lighten-1" target="_blank"> View Grant </a>
+      </div>
+      <!--Link to page sections-->
+      <div class="left-align">
+        <a href="#reviewss" class="teal-text text-lighten-1">Read Reviews</a>
       </div>
       <div class="left-align">
-          <a href="#reviewss" class="teal-text text-lighten-1">Read Reviews</a>
-       </div>
-       <div class="left-align">
-       <a href="#commentform" class="teal-text text-lighten-1">Submit Review</a>
-       </div>
+        <a href="#commentform" class="teal-text text-lighten-1">Submit Review</a>
+      </div>
     </div>
 <br>
 <br>
 <br>
 <br>   <!--Space between link and form-->
-
-                                  <!------Reviews------>
+    <!------Reviews------>
     <div class="container">          
       <a name="reviewss"></a><h4>Reviews</h4>
       <!--Comment 1-->
@@ -73,19 +74,18 @@
         <p>Rating this application high on the help from the customer service support alone!</p>
         <p> Ease of Application Rating: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
       </div>
-
-                              <!-----------FORMS---------->
+      <!-----------FORMS---------->
       <h5 class="center-align" id="enter-rating">Submit Your Review of this Grant Below: </h5> 
       <a name="commentform"></a>
       <div class="border-container">
-                  <!-- Name input-->
+        <!-- Name input-->
         <div class="row" id="name-input">
           <div class="input-field col s6">
             <input value="" id="first_name2" type="text" class="validate">
             <label class="active" for="first_name2">Name</label>
           </div>
         </div>
-                  <!-- Comment Textarea -->
+        <!-- Comment Textarea -->
         <div class="row">
           <form class="col s12">
             <div class="row">
@@ -96,12 +96,12 @@
             </div>
           </form>
         </div>
-                      <!--Ease of Application rating-->
+        <!--Ease of Application rating-->
         <p class="center-align grey-text">How would you rate the ease of this grant application?:
           <br>
           <i class="material-icons center-align" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i>
         </p>
-                      <!-- Submit Review button-->
+        <!-- Submit Review button-->
         <p class="review-button center-align ">
           <button class="btn waves-effect waves-light blue-grey darken-3" type="submit" name="action">Submit Review
             <i class="material-icons right">send</i>
@@ -109,30 +109,25 @@
         </p>
       </div>
     </div>
-
-
-        <!--Javascript-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <!-- Initialization for forms-->
-    <script>
-      $(document).ready(function() {
-        M.updateTextFields();
-      });
-    </script>  
-    <!-- Initialization for text area -->
-    <script>
-      $('#textarea1').val('New Text');
-      M.textareaAutoResize($('#textarea1'));
-    </script>
-
-    <!-- Footer -->
-<footer class="page-footer grey darken-1">
+  <!-- Footer -->
+  <footer class="page-footer grey darken-1">
     <div class="copyright center-align">
       © 2019 Copyright MomsCanCode
-      <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
     </div>
-</footer>
-
+  </footer>
+  <!--Javascript-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!-- Initialization for forms-->
+  <script>
+    $(document).ready(function() {
+      M.updateTextFields();
+    });
+  </script>  
+  <!-- Initialization for text area -->
+  <script>
+    $('#textarea1').val('New Text');
+    M.textareaAutoResize($('#textarea1'));
+  </script>
 
   </body>
 </html>

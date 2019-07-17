@@ -11,143 +11,122 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:300,400&display=swap" rel="stylesheet">
-    
     <title>GRANTSEARCH</title>
 </head>
 <body>
-    <header>
-        <!-- Modal -->
-        <div id="modal1" class="modal">
-            <div class="modal-content">
-              <h4>How to use Grant Search: </h4>
-                <p><i>Grant Search</i> is a search tool for non-profit founders to easily find grants by sector, region or type specifically public or private. 
-                  <br>
-                  <br> <b>Three easy steps: </b>
-                  <br> &nbsp;  1. To find a grant simply select the category via the drop down options and hit "find grants." 
-                  <br> &nbsp;  2. View the results below and click on any result for more details. 
-                  <br> &nbsp;  3. If you have applied to a grant before and would like to share your experience or read other &nbsp;founders experiences then you can browse and leave comments too. 
-                  <br>
-            </div>
-            <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat teal">Close</a>
-            </div>
+  <header>
+             <!-----------Modal------------>
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>How to use Grant Search: </h4>
+          <p><i>Grant Search</i> is a search tool for non-profit founders to easily find grants by sector, region or type specifically public or private. 
+          <br>
+          <br> <b>Three easy steps: </b>
+          <br> &nbsp;  1. To find a grant simply select the category via the drop down options and hit "find grants." 
+          <br> &nbsp;  2. View the results below and click on any result for more details. 
+          <br> &nbsp;  3. If you have applied to a grant before and would like to share your experience or read other &nbsp;founders experiences then you can browse and leave comments too. 
+          <br>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat teal">Close</a>
+      </div>
+    </div>
+       <!------------Navbar-------------->
+    <nav>
+      <div class="nav-wrapper blue-grey">
+        <a href="index.html" class="brand-logo"><img class="logo" src="gslogowhite.png"></a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1">How to use</a></li>
+        </ul>
+      </div>
+    </nav>
+       <!----------------Sidenav-------------->
+    <ul class="sidenav teal" id="mobile-links">
+      <li>
+        <div class="user-view">
+          <div class="container-view">
+            <h5 class="white-text center-align">How to use Grant Search</h5>
+              <p class="white-text"> 1. Select categories and click "find grants".
+              <br>  2. View results and click for more details.
+              <br>  3. Browse and submit reviews. 
+              </p>  
           </div>
-
-          <!-- Navbar -->
-           <nav>
-            <div class="nav-wrapper blue-grey">
-              <a href="index.html" class="brand-logo"><img class="logo" src="gslogowhite.png"></a>
-              <a href="#" class="sidenav-trigger" data-target="mobile-links">
-                  <i class="material-icons">menu</i>
-                </a>
-              <ul class="right hide-on-med-and-down">
-                <li><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1">How to use</a></li>
-              </ul>
-            </div>
-          </nav>
-
-
-          <!-- Sidenav -->
-          <ul class="sidenav teal" id="mobile-links">
-            <li>
-              <div class="user-view">
-                <div class="container-view">
-                  <h5 class="white-text center-align">How to use Grant Search</h5>
-                    <p class="white-text"> 1. Select categories and click "find grants".
-                      <br>  2. View results and click for more details.
-                      <br>  3. Browse and submit reviews. 
-                    </p>  
-                </div>
-              </div>
-            </li>   
-          </ul>     
-          
-
-
-        <!--- Page Title --->
-      <h3 class="searchheader blue-gray-text text-lighten-3 center-align">
-        FIND A GRANT
-      </h3>
-    </header>
-
-    <main>
-      
-        <!----Dropdowns ---> 
+        </div>
+      </li>   
+    </ul>     
+      <!-------------Page Title----------->
+    <h3 class="searchheader blue-gray-text text-lighten-3 center-align">
+      FIND A GRANT
+    </h3>
+  </header>
+  <main>
+      <!-------------Dropdowns-------------> 
     <div class="selectors">  
       <div class="row"> 
-         <div class="dropdwn input-field col s12 m4">
-            <select class="select-wrapper">
-              <option value="" disabled selected>Choose your sector</option>
-              <option value="Animal">Animal Rights</option>
-              <option value="Arts"disabled>Arts</option>
-            </select>
+        <div class="dropdwn input-field col s12 m4">
+          <select class="select-wrapper">
+            <option value="" disabled selected>Choose your sector</option>
+            <option value="Animal">Animal Rights</option>
+            <option value="Arts"disabled>Arts</option>
+          </select>
         </div>
-         <div class="dropdwn input-field col s12 m4">
-            <select>
-              <option value="" disabled selected>Choose your region</option>
-              <option value="1">Mid Atlantic</option>
-            </select>
+        <div class="dropdwn input-field col s12 m4">
+          <select>
+            <option value="" disabled selected>Choose your region</option>
+            <option value="1">Mid Atlantic</option>
+          </select>
         </div>
-          <div class="dropdwn input-field col s12 m4">
-            <select>
-              <option value="" disabled selected>Choose your grant type</option>
-              <option value="1">Private</option>
-              <option value="2">Public</option>
-            </select>
-          </div>
+        <div class="dropdwn input-field col s12 m4">
+          <select>
+            <option value="" disabled selected>Choose your grant type</option>
+            <option value="1">Private</option>
+            <option value="2">Public</option>
+          </select>
+        </div>
       </div>
     </div>       
-
-            <!---- Submit button ---->
-      <div class="container">      
-        <div class="row">
-          <div class="col s12 center-align">
-            <a href="results2.html" class="center-align">
+    <!--------------Submit button-------------->
+    <div class="container">      
+      <div class="row">
+        <div class="col s12 center-align">
+          <a href="results2.html" class="center-align">
             <button class="btn waves-effect waves-light blue-grey darken-3" type="submit" name="action" value="click">Find Grants 
-            <!--<i class="material-icons right">send</i>-->
             </button>
-            </a>
-          </div>  
-        </div>
-      </div>    
-      
-
-    
-    </main>
-
-                 <!-- Compiled and minified JavaScript and jQuery -->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-                <!-- import the webpage's client-side javascript file -->
-    <script src="/scripts.js" defer></script>
-
-
-    <!-- initiation for the dropdowns -->
-    <script> 
+          </a>
+        </div>  
+      </div>
+    </div>   
+  </main>
+  <!---------------Footer--------------->
+  <footer class="page-footer grey darken-1">
+    <div class="copyright center-align">
+      © 2019 Copyright MomsCanCode
+    </div>
+  </footer>
+  <!---------Compiled and minified JavaScript and jQuery---------->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!---------import the webpage's client-side javascript file-------->
+  <script src="/scripts.js" defer></script>
+  <!--------------initiation for the dropdowns----------->
+  <script> 
       document.addEventListener('DOMContentLoaded', function() {
         var elems = document.querySelectorAll('select');
         var instances = M.FormSelect.init(elems, options);
       });
       M.AutoInit();
-    </script>
+  </script>
 
-<script>
+  <script>
     document.addEventListener('DOMContentLoaded', function() {
       var elems = document.querySelectorAll('.sidenav');
       var instances = M.Sidenav.init(elems, options);
       }); 
-</script>
-
-<!-- Footer -->
-<footer class="page-footer grey darken-1">
-    <div class="copyright center-align">
-      © 2019 Copyright MomsCanCode
-      <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
-    </div>
-</footer>
-
-
+  </script>
 
 </body>
 </html>

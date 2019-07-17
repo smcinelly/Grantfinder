@@ -8,22 +8,22 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <script src="scripts.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:300,400&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>GRANTSEARCH</title>
   </head>
   <body>
-      <!-------Navbar------->
-      <nav>
-        <div class="nav-wrapper blue-grey">
-          <a href="index.html" class="brand-logo"><img class="logo" src="gslogowhite.png"></a>
-          <ul class="right hide-on-med-and-down">
-          </ul>
-        </div>
-      
-      </nav>
-      <!-----New Search Btn----->
+    <!-------Navbar------->
+    <nav>
+      <div class="nav-wrapper blue-grey">
+        <a href="index.html" class="brand-logo"><img class="logo" src="gslogowhite.png"></a>
+        <ul class="right hide-on-med-and-down">
+        </ul>
+      </div>
+    </nav>
+    <!-----New Search Btn----->
     <div class="container center-align" id="newsearchbtn">
       <div class="newsearch">
         <a href="index.html">
@@ -34,34 +34,32 @@
       </div>
                                     <!-----Grant Info------>  
       <h3 class="center-align">ASPCApro: New York State Animal Population Control Program Grant</h3>
-
       <div class="left-align">
         <p>The New York State Animal Population Control Program is a low-cost spay/neuter grant program administered by the ASPCA on behalf of the New York State Department of Agriculture and Markets. Eligibility Requirements to apply to the ASPCA for APCP grant grnds are; Municipal or county animal shelters and animal control, 501(c)(3) non-profit animal welfare organizations and organizations must be based in upstate New York or Long Island (New York City is excluded from the APCP program).
         <br><br>
         Deadline: Rolling (no deadline)
         </p>
-    
-        <a href="https://www.aspcapro.org/grant/2013/02/11/new-york-state-animal-population-control-program" class="teal-text text-lighten-1"> View Grant </a>
+        <!--Link to grant-->
+        <a href="https://www.aspcapro.org/grant/2013/02/11/new-york-state-animal-population-control-program" class="teal-text text-lighten-1" target="_blank"> View Grant </a>
       </div>
-
+        <!----Links to sections of page---->
       <div class="left-align">
-          <a href="#reviewss" class="teal-text text-lighten-1">Read Reviews</a>
-        </div>
-    <div class="left-align">
-      <a href="#commentform" class="teal-text text-lighten-1">Submit Review</a>
+        <a href="#reviewss" class="teal-text text-lighten-1">Read Reviews</a>
+      </div>
+      <div class="left-align">
+        <a href="#commentform" class="teal-text text-lighten-1">Submit Review</a>
+      </div>
+      <br>
+      <br>
     </div>
     <br>
     <br>
-    </div>
-<br>
-<br>
-<br>
-<br>   <!--Space between link and form-->
+    <br>
+    <br>   <!--Space between link and form-->
 
-                                  <!------Reviews------>
+    <!------------Reviews------------->
     <div class="container">          
-        <a name="reviewss"></a><h4>Reviews</h4>
-
+      <a name="reviewss"></a><h4>Reviews</h4>
       <!--Comment 1-->
       <div class="card-panel grey lighten-3"> 
         <h6 class="blue-grey-text text-darken-3">Waterm3l0n6</h6>
@@ -76,20 +74,18 @@
         <p>This application was very straight forward. I got a response almost immediately. Highly recommend applying.</p>
         <p> Ease of Application Rating: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
       </div>
-
-                              <!-----------FORMS---------->
+      <!-----------FORMS---------->
       <h5 class="center-align" id="enter-rating">Submit Your Review of this Grant Below: </h5> 
       <a name="commentform"></a>
-
       <div class="border-container">
-                  <!-- Name input-->
+        <!-- Name input-->
         <div class="row" id="name-input">
           <div class="input-field col s6">
             <input value="" id="first_name2" type="text" class="validate">
             <label class="active" for="first_name2">Name</label>
           </div>
         </div>
-                  <!-- Comment Textarea -->
+        <!-- Comment Textarea -->
         <div class="row">
           <form class="col s12">
             <div class="row">
@@ -100,12 +96,12 @@
             </div>
           </form>
         </div>
-                      <!--Ease of Application rating-->
+        <!--Ease of Application rating-->
         <p class="center-align grey-text">How would you rate the ease of this grant application?:
           <br>
           <i class="material-icons center-align" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i><i class="material-icons" id="stars">stars</i>
         </p>
-                      <!-- Submit Review button-->
+        <!-- Submit Review button-->
         <p class="review-button center-align ">
           <button class="btn waves-effect waves-light blue-grey darken-3" type="submit" name="action">Submit Review
             <i class="material-icons right">send</i>
@@ -113,32 +109,25 @@
         </p>
       </div>
     </div>
-
-
-        <!--Javascript-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <!-- Initialization for forms-->
-    <script>
-      $(document).ready(function() {
-        M.updateTextFields();
-      });
-    </script>  
-    <!-- Initialization for text area -->
-    <script>
-      $('#textarea1').val('New Text');
-      M.textareaAutoResize($('#textarea1'));
-    </script>
-
-
-    <!-- Footer -->
+ <!-------Footer-------->
   <footer class="page-footer grey darken-1">
     <div class="copyright center-align">
       © 2019 Copyright MomsCanCode
     </div>
   </footer>
-
-
-
+  <!-----Javascript----->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!-- Initialization for forms-->
+  <script>
+      $(document).ready(function() {
+        M.updateTextFields();
+      });
+  </script>  
+  <!-- Initialization for text area -->
+    <script>
+      $('#textarea1').val('New Text');
+      M.textareaAutoResize($('#textarea1'));
+    </script>
 
   </body>
 </html>
